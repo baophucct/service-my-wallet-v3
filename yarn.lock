@@ -3161,12 +3161,12 @@ undefsafe@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/undefsafe/-/undefsafe-0.0.3.tgz#ecca3a03e56b9af17385baac812ac83b994a962f"
 
-unicode-length@~2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/unicode-length/-/unicode-length-2.0.0.tgz#5a1cceb487b2fd3871448182ba136c3ed85a8436"
+unicode-length@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/unicode-length/-/unicode-length-2.1.0.tgz#425202b99f21854f5ca3530cc2a08dc262ce619f"
+  integrity sha512-4bV582zTV9Q02RXBxSUMiuN/KHo5w4aTojuKTNT96DIKps/SIawFp7cS5Mu25VuY1AioGXrmYyzKZUzh8OqoUw==
   dependencies:
     punycode "^2.0.0"
-    strip-ansi "^3.0.1"
 
 uniq@^1.0.1:
   version "1.0.1"
