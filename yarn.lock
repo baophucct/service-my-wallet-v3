@@ -585,10 +585,6 @@ binary-extensions@^1.0.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.8.0.tgz#48ec8d16df4377eae5fa5884682480af4d95c774"
 
-bindings@1.2.x, bindings@~1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.2.1.tgz#14ad6113812d2d37d72e67b4cacb4bb726505f11"
-
 bip39@2.1.*:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/bip39/-/bip39-2.1.2.tgz#a18b53f20b3cdb752db417644c452c1daf2f47d6"
@@ -699,9 +695,10 @@ blockchain-wallet-client@3.32.4:
     unorm "^1.4.1"
     ws "2.0.*"
 
-blockchain.info@~2.2.2:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/blockchain.info/-/blockchain.info-2.2.3.tgz#ab4f5724045a230cc7e450d41d71220720b49cc3"
+blockchain.info@~2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/blockchain.info/-/blockchain.info-2.7.0.tgz#949ab610ece64db78b96c45e2ca681832b05302e"
+  integrity sha512-jfHBwdqe+4taKLBpmodP6VMG+4wC/JY+Z/eFkzLyos1OZpbhYd+czIyt1orzoJVqEfpbzgdyDtWGhOFvPMSpEA==
   dependencies:
     q "^1.4.1"
     request-promise "^0.4.3"
@@ -709,7 +706,7 @@ blockchain.info@~2.2.2:
     url-parse "^1.0.5"
     url-pattern "^0.10.2"
   optionalDependencies:
-    ws "^0.8.0"
+    ws "^1.1.2"
 
 bluebird@^2.3:
   version "2.11.0"
@@ -779,13 +776,6 @@ buffer-equals@^1.0.3:
 buffer-reverse@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/buffer-reverse/-/buffer-reverse-1.0.1.tgz#49283c8efa6f901bc01fa3304d06027971ae2f60"
-
-bufferutil@1.2.x:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/bufferutil/-/bufferutil-1.2.1.tgz#37be5d36e1e06492221e68d474b1ac58e510cbd7"
-  dependencies:
-    bindings "1.2.x"
-    nan "^2.0.5"
 
 bytes@2.2.0:
   version "2.2.0"
@@ -2201,13 +2191,9 @@ mute-stream@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
 
-nan@^2.0.5, nan@^2.3.0:
+nan@^2.3.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
-
-nan@~2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.4.0.tgz#fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
 
 natural-compare@^1.4.0:
   version "1.4.0"
@@ -3213,13 +3199,6 @@ user-home@^2.0.0:
   dependencies:
     os-homedir "^1.0.0"
 
-utf-8-validate@1.2.x:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/utf-8-validate/-/utf-8-validate-1.2.2.tgz#8bb871a4741e085c70487ca7acdbd7d6d36029eb"
-  dependencies:
-    bindings "~1.2.1"
-    nan "~2.4.0"
-
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -3318,15 +3297,13 @@ ws@2.0.*:
   dependencies:
     ultron "~1.1.0"
 
-ws@^0.8.0:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-0.8.1.tgz#6b65273b99193c5f067a4cf5809598f777e3b759"
+ws@^1.1.2:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.5.tgz#cbd9e6e75e09fc5d2c90015f21f0c40875e0dd51"
+  integrity sha512-o3KqipXNUdS7wpQzBHSe180lBGO60SoK0yVo3CYJgb2MkobuWuBX6dhkYP5ORCLd55y+SaflMOV5fqAB53ux4w==
   dependencies:
     options ">=0.0.5"
     ultron "1.0.x"
-  optionalDependencies:
-    bufferutil "1.2.x"
-    utf-8-validate "1.2.x"
 
 xdg-basedir@^2.0.0:
   version "2.0.0"
